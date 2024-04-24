@@ -8,7 +8,11 @@ namespace POO_Clase2.Ejercicio_1
 {
     public class Gato : Animal
     {
+        public override void EmitirSonido()
+        {
+            Console.WriteLine("\n El Gato Maulla: MIAU");
+        }
 
-        
     }
 }
+

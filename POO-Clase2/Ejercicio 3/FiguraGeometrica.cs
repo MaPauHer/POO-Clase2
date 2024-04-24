@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace POO_Clase2.Ejercicio_3
 {
-    public class Ejemplo
+    public abstract class FiguraGeometrica
     {
+        public abstract double CalcularArea();
+
+        public abstract double CalcularPerimetro();
     }
 }
